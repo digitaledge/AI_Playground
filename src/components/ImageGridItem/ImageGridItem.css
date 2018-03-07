@@ -1,0 +1,57 @@
+.imageContainer {
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee0e2;
+  margin: 10px;
+}
+
+.image {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.imageWrap {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: #5f5f5f;
+}
+
+.infoWrap {
+  padding: 10px;
+}
+
+.infoWrap p {
+  margin: 0;
+}
+
+.sectionHeader {
+  margin: 0;
+  background-color: #202021;
+  color: whitesmoke;
+  padding: 5px 10px;
+}
+
+.sectionHeader p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.percents {
+  font-weight: bold;
+}
+
+.percentSafe {
+  color: green;
+}
+.percentLikelySafe {
+  color: #778000;
+}
+.percentLikelyUnsafe {
+  color: #9c5400;
+}
+.percentLikelyUnsafe {
+  color: red;
+}

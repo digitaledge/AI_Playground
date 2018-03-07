@@ -1,0 +1,6 @@
+{
+  "name": "ImageGridItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ImageGridItem.js"
+}

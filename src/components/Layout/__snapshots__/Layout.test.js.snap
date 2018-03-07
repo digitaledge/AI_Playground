@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Layout does render with children 1`] = `
+<div>
+  <div
+    className="root"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="banner"
+      >
+        <h1
+          className="bannerTitle"
+        >
+          AI Playground
+        </h1>
+        <p
+          className="bannerDesc"
+        >
+          Node.js + OpenCV + React = fun!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="child"
+  />
+</div>
+`;

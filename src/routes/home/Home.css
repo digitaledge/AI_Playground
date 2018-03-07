@@ -1,0 +1,59 @@
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionZone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px 50px;
+  border-radius: 25px;
+  -webkit-box-shadow: -2px 4px 37px 6px rgba(0,0,0,0.28);
+  -moz-box-shadow: -2px 4px 37px 6px rgba(0,0,0,0.28);
+  box-shadow: -2px 4px 37px 6px rgba(0,0,0,0.28);
+}
+.actionZone p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.actionZone h1 {
+  margin: 5px;
+}
+
+.button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #0255b9;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #023972;
+}
+
+.button:active,
+.button:focus {
+  outline: transparent;
+}
+
+.imageGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
