@@ -29,6 +29,10 @@ Test:    yarn test
 Stats:   yarn build-stats
 ```
 
+### Example
+
+![Screenshot](screenshot.png)
+
 ## License
 
 This project is licensed under the MIT License
